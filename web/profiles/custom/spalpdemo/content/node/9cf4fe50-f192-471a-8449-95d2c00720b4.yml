@@ -41,6 +41,6 @@ default:
       value: false
   body:
     -
-      value: 'Welcome to the demo site for the <a href="https://drupal.org/project/spalp">Drupal Single Page Application Landing Page module</a>.'
+      value: '<p>Welcome to the demo site for the <a href="https://drupal.org/project/spalp">Drupal Single Page Application Landing Page module</a>.</p><p>Here are some examples of the functionality:</p><ul><li><a href="/node/1">Basic example</a></li></ul> '
       format: basic_html
       summary: ''
