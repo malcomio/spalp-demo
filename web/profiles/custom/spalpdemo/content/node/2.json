@@ -1,0 +1,46 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f4924c4c-8145-4dd2-8ba1-983fd208a0ce
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Single Page Application Landing Page demo site'
+  created:
+    -
+      value: 1683840612
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Welcome to the demo site for the <a href="https://drupal.org/project/spalp">Drupal Single Page Application Landing Page module</a>.'
+      format: basic_html
+      summary: ''

@@ -33,6 +33,7 @@
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
+        "drupal/default_content": "^2.0@alpha",
         "drupal/spalp": "^2.0",
         "drush/drush": "^11.5"
     },
@@ -91,7 +92,14 @@
         "build": [
             "ddev start",
             "ddev composer install",
+            "@site-install",
+            "@site-dev"
+        ],
+        "site-install": [
             "ddev drush site:install spalpdemo --site-name='SPALP demo' --account-pass=admin -y"
+        ],
+        "site-dev": [
+            "ddev drush en config_devel -y"
         ]
     },
     "require-dev": {

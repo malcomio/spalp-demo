@@ -6,6 +6,7 @@ base profile: standard
 install:
   - drupal:block
   - drupal:dblog
+  - drupal:editor
   - drupal:field
   - drupal:help
   - drupal:node
@@ -15,6 +16,7 @@ install:
   - drupal:text
   - drupal:views
   - admin_toolbar:admin_toolbar
+  - default_content:default_content
   - spalp:spalp
   - spalp:spalp_example
 
@@ -25,7 +27,13 @@ themes:
 config_devel:
   install:
     - block.block.olivero_syndicate
+    - core.entity_form_display.node.page.default
+    - core.entity_view_display.node.page.default
+    - field.field.node.page.body
+    - filter.format.basic_html
     - node.settings
+    - node.type.page
+    - system.site
     - system.theme
     - user.role.anonymous
     - user.settings
