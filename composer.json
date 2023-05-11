@@ -29,9 +29,11 @@
     "require": {
         "brutusin/json-forms": "^0.0.0",
         "composer/installers": "^2.0",
+        "drupal/admin_toolbar": "^3.4",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
+        "drupal/spalp": "^2.0",
         "drush/drush": "^11.5"
     },
     "conflict": {

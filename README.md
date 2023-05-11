@@ -1,7 +1,7 @@
 # Drupal Single Page Application Landing Page demo site
 This is a demonstration site for the Drupal [Single Page Application Landing Page module](https://www.drupal.org/project/spalp).
 
-It shows how the module can be used to build progressively decoupled applications on top of a Drupal
+It shows how the module can be used to build progressively decoupled applications on top of a Drupal site.
 
 ## Public demo site
 See https://spalp.red-route.org
