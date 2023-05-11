@@ -37,3 +37,7 @@ config_devel:
     - system.theme
     - user.role.anonymous
     - user.settings
+
+default_content:
+  node:
+    - 9cf4fe50-f192-471a-8449-95d2c00720b4
