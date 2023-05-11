@@ -40,6 +40,7 @@ idea.log
 /web/robots.txt
 /web/.*
 /auth/*
+/web/*.*
 
 # Ignore generated files.
 /web/sites
