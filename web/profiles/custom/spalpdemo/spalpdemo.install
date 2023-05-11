@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Install hooks for SPALP demo.
+ */
+
+/**
+ * Implements hook_install_tasks().
+ */
+function spalpdemo_install_tasks(&$install_state) {
+  return [
+    'spalpdemo_publish_nodes' => [
+      'display_name' => 'Publish nodes',
+    ],
+  ];
+}
+
+/**
+ * Publish applanding nodes in site installation.
+ */
+function spalpdemo_publish_nodes() {
+  $node = \Drupal::service('spalp.core')->getAppNode('spalp_example');
+  $node->setPublished();
+  $node->save();
+}
