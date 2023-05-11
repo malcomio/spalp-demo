@@ -41,6 +41,9 @@ idea.log
 /web/.*
 /auth/*
 /web/*.*
+/web/modules/*.*
+/web/profiles/*.*
+/web/themes/*.*
 
 # Ignore generated files.
 /web/sites
