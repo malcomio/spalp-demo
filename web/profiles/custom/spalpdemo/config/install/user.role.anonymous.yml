@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.applanding
+  module:
+    - node
+    - system
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'edit any applanding content'
+  - 'view applanding revisions'
+  - 'view the administration theme'

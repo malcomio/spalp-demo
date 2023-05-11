@@ -13,11 +13,19 @@ install:
   - drupal:menu_ui
   - drupal:path
   - drupal:text
-  - drupal:toolbar
   - drupal:views
+  - admin_toolbar:admin_toolbar
   - spalp:spalp
   - spalp:spalp_example
 
 themes:
   - claro
   - olivero
+
+config_devel:
+  install:
+    - block.block.olivero_syndicate
+    - node.settings
+    - system.theme
+    - user.role.anonymous
+    - user.settings

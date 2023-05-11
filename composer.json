@@ -93,5 +93,8 @@
             "ddev composer install",
             "ddev drush site:install spalpdemo --site-name='SPALP demo' --account-pass=admin -y"
         ]
+    },
+    "require-dev": {
+        "drupal/config_devel": "^1.9"
     }
 }
