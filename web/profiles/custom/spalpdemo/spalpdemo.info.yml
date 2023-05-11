@@ -16,6 +16,7 @@ install:
   - drupal:text
   - drupal:views
   - admin_toolbar:admin_toolbar
+  - config_devel:config_devel
   - default_content:default_content
   - spalp:spalp
   - spalp:spalp_example
@@ -26,6 +27,7 @@ themes:
 
 config_devel:
   install:
+    - block.block.olivero_account_menu
     - block.block.olivero_syndicate
     - core.entity_form_display.node.page.default
     - core.entity_view_display.node.page.default
