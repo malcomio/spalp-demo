@@ -35,6 +35,7 @@ config_devel:
     - filter.format.basic_html
     - node.settings
     - node.type.page
+    - olivero.settings
     - system.site
     - system.theme
     - user.role.anonymous
