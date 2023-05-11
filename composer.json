@@ -97,9 +97,6 @@
         ],
         "site-install": [
             "ddev drush site:install spalpdemo --site-name='SPALP demo' --account-pass=admin -y"
-        ],
-        "site-dev": [
-            "ddev drush en config_devel -y"
         ]
     },
     "require-dev": {
