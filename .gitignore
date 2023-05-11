@@ -1,0 +1,45 @@
+# Ignore IDE files
+.idea
+idea.log
+.nova
+.vscode
+
+# Backups etc
+*.sql
+*.sql.gz
+
+# Operating system files
+.DS_Store
+
+# Ignore core and contrib when managing all of a project's dependencies with Composer
+# including Drupal core.
+/web/core
+/web/modules/contrib
+/web/themes/contrib
+/web/libraries
+/drush/Commands/contrib
+
+# Ignore dependencies that are managed with Composer.
+# Generally you should only ignore the root vendor directory. It's important
+# that core/assets/vendor and any other vendor directories within contrib or
+# custom module, theme, etc., are not ignored unless you purposely do so.
+/vendor/
+**/node_modules
+
+# Ignore paths that contain user-generated content.
+/web/sites/*/files
+/web/sites/*/private
+
+# Ignore SimpleTest multi-site environment.
+/web/sites/simpletest
+
+# Ignore scaffolding.
+/web/autoload.php
+/web/index.php
+/web/favicon.ico
+/web/robots.txt
+/web/.*
+/auth/*
+
+# Ignore generated files.
+/web/sites

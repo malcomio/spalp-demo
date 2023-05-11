@@ -1,0 +1,22 @@
+name: SPALP Demo
+type: profile
+description: 'Installation profile to demonstrate the Single Page Application Landing Page module.'
+core_version_requirement: ^9 || ^10
+base profile: standard
+install:
+  - drupal:block
+  - drupal:field
+  - drupal:help
+  - drupal:node
+  - drupal:options
+  - drupal:menu_ui
+  - drupal:path
+  - drupal:text
+  - drupal:toolbar
+  - drupal:views
+  - spalp:spalp
+  - spalp:spalp_example
+
+themes:
+  - claro
+  - olivero
